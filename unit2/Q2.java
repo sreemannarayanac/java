@@ -42,10 +42,10 @@ class Q2 {
 			System.out.print("__Operations__:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit (End operation)\nChoose operation(number): ");
 			int op = inp.nextInt();
 			switch(op) {
-				case 1: System.out.println("Addition of "+a+" and "+b+" gives "+(char) open.addition()); break;
-				case 2: System.out.println("Subtraction of "+a+" from "+b+" gives "+(char) open.subtraction()); break;
-				case 3: System.out.println("Multiplication of "+a+" with "+b+" gives "+(char) open.multiplication()); break;
-				case 4: System.out.println("Division of "+a+" by "+b+" gives "+(char) open.division()); break;
+				case 1: System.out.println("Addition of "+ a + "(" + (int) a + ")" +" and "+ b + "(" + (int) a + ")" +" gives "+(char) open.addition() + " or " + open.addition()); break;
+				case 2: System.out.println("Subtraction of "+ a + "(" + (int) a + ")" +" from "+ b + "(" + (int) b + ")" +" gives "+(char) open.subtraction() + " or " + open.subtraction()); break;
+				case 3: System.out.println("Multiplication of "+ a + "(" + (int) a + ")" +" with "+ (int) b + "(" + b + ")" +" gives "+(char) open.multiplication() + " or " + open.multiplication()); break;
+				case 4: System.out.println("Division of "+ a + "(" + (int) a + ")" +" by "+ b + "(" + (int) b + ")" +" gives "+(char) open.division() + " or " + open.division()); break;
 				case 5: System.exit(0); break;
 				default: System.out.println("Enter valid operation. Try again.");
 			}
@@ -53,4 +53,5 @@ class Q2 {
 		}
 		while (true);
 	}
+	// code includes multiple type conversions. It can be inproved, but the program is written for learning type conversions.
 }
