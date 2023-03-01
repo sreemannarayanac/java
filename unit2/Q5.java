@@ -34,26 +34,17 @@ class Book {
 	void changeStatus() {
 		System.out.println("__________Change Status__________");
 		System.out.print("Present Status: ");
+		this.getStatus();
 		if (status == true) {
-			System.out.print("available.");
+			status = false;
 		} else {
-			System.out.print("not available.");
-		}
-		System.out.print("\nDo you want to change the status? Enter [Y] to change: ");
-		char choice = inp.nextLine().charAt(0);
-		if (choice == 'Y' || choice == 'y') {
-			if (status == true) {
-				status = false;
-			} else {
-				status = true;
-			}
+			status = true;
 		}
 	}
 }
 
 class Q5 {
 	public static void main (String args[]) {
-		Scanner inp = new Scanner(System.in);
 		Book b1 = new Book();
 		b1.getDetails();
 		b1.getStatus();
