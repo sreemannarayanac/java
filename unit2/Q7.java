@@ -1,6 +1,6 @@
 // Illustrate the usage of 'this', 'final' and 'finalize' usinga a java program.
 
-class Main {
+class Q7{
     int price = 1000;
     final int tax = 10;
     void getPrice(int price){
