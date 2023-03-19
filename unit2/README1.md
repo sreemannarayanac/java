@@ -1,5 +1,20 @@
 # Introduction to Classes Objects and Methods
-## Part 1
+## Part 1  
+## Table of Contents  
+- [Objects creation](#object-creation)
+- [Reference variables and assignment](#reference-variables-and-assignment)
+- [Methods](#methods)
+- [Returning a value](#returning-a-value)
+- [Passing arguments](#passing-arguments)
+- [Constructors](#constructors)
+- [new Keyword](#new-keyword)
+- [this keyword](#this-keyword)
+- [finalize() method](#finalize-method)
+- [Wrapper classes](#wrapper-classes)
+- [I/O command line arguments](#io-command-line-arguments)
+- [Scanner and Buffered reader classes](#scanner-and-buffered-reader-classes)
+
+---
 ## What are classes?
 - A class is a blueprint for creating objects.
 - A class is a user-defined data type.
@@ -41,7 +56,8 @@ public class Main{
     }
 }
 ```
-- **Assignment**: Create a class `Student` with variables `rollno` and `name`. Create two objects of the class `Student` and assign the values to the variables of the objects.
+- **Assignment**: Create a class `Student` with variables `rollno` and `name`. Create two objects of the class `Student` and assign the values to the variables of the objects.  
+
 ---
 ## Methods
 A method is a collection of statements that perform a specific task. A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Methods are used to perform certain actions, and they are also known as functions. Why use methods? To reuse code: define the code once, and use it many times.

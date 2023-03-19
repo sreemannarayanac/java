@@ -1,4 +1,17 @@
 # Java Programming Fundamentals
+## Table of Contents
+- [What is Java?](#what-is-java)
+- [What is Object Oriented Programming?](#what-is-object-oriented-programming)
+- [What are key attributes of Object Oriented Programming?](#what-are-key-attributes-of-object-oriented-programming)
+- [What is Java Development Kit?](#what-is-java-development-kit)
+- [What are Keywords, identifiers, literals, and comments?](#what-are-keywords-identifiers-literals-and-comments)
+- [What are the java class libraries?](#what-are-the-java-class-libraries)
+- [Scope and lifetime of variables](#scope-and-lifetime-of-variables)
+- [Operators](#operators)
+- [Type conversion and casting](#type-conversion-and-casting)
+- [Program control structures](#program-control-structures)
+
+---
 ## What is Java?
 Java is a programming language and computing platform first released by Sun Microsystems in 1995. There are lots of applications and websites that will not work unless you have Java installed, and more are created every day. Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere!
 ## What is Object Oriented Programming?  
@@ -7,20 +20,23 @@ Object-oriented programming (OOP) is a programming language model organized arou
 - **Abstraction**: Abstraction is the process of hiding the implementation details and showing only functionality to the user. In other words, the user will have the information on what the object does instead of how it does it.
 - **Inheritence**: Inheritance is a way to form new classes using classes that have already been defined. The newly formed classes are called derived classes, the classes that we derive from are called base classes. Important properties of inheritance are: It provides reusability of a code. It is transitive in nature, which means that if class B inherits from another class A, then all the subclasses of B would automatically inherit from class A.
 - **Polymorphism**: Polymorphism is the ability of a message to be displayed in more than one form. Polymorphism is considered as one of the important features of Object Oriented Programming. Polymorphism is used to perform a single action in different ways. Polymorphism is derived from two Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. Thus, polymorphism means many forms.
-- **Encapsulation**: Encapsulation is the mechanism that binds together code and the data it manipulates, and keeps both safe from outside interference and misuse. To prevent accidental or unauthorized access to data, encapsulation is used. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+- **Encapsulation**: Encapsulation is the mechanism that binds together code and the data it manipulates, and keeps both safe from outside interference and misuse. To prevent accidental or unauthorized access to data, encapsulation is used. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.  
+
 ---
 ## What is Java Development Kit?
 Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It contains the complete implementation of the Java Platform, Standard Edition, and also additional tools and libraries.
 ### JDK Components
 - **Java Compiler**: The Java compiler is a program that converts Java source code into Java bytecode. The Java compiler is a part of the Java Development Kit (JDK). The Java compiler is also known as the Java Virtual Machine (JVM).
 - **Java Runtime Environment**: The Java Runtime Environment (JRE) is a set of software tools that allows users to run Java applications. The JRE consists of the Java Virtual Machine (JVM), Java platform core classes, and supporting Java platform libraries.
-- **Java Virtual Machine**: The Java Virtual Machine (JVM) is a specification that provides a runtime environment in which Java bytecode can be executed. The JVM is a crucial component of the Java platform. The JVM is a specification, not an implementation. The JVM is a specification that provides a runtime environment in which Java bytecode can be executed. The JVM is a crucial component of the Java platform. The JVM is a specification, not an implementation.
+- **Java Virtual Machine**: The Java Virtual Machine (JVM) is a specification that provides a runtime environment in which Java bytecode can be executed. The JVM is a crucial component of the Java platform. The JVM is a specification, not an implementation. The JVM is a specification that provides a runtime environment in which Java bytecode can be executed. The JVM is a crucial component of the Java platform. The JVM is a specification, not an implementation.  
+
 ---
 ## What are Keywords, identifiers, literals, and comments?
 - **Keywords**: Keywords are the reserved words in Java. We cannot use a keyword as an identifier, it should be a unique name. There are 50 keywords in Java.
 - **Identifiers**: An identifier is a name used to identify a class, method, variable, or any other user-defined item. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores, and digits (0 to 9).
 - **Literals**: Literals are the source code representation of fixed values. Literals can appear in Java programs in several forms. A literal can be a decimal integer, octal integer, hexadecimal integer, floating-point number, character, string, Boolean, or null.
-- **Comments**: Comments are used to explain Java code, and to make it more readable. Comments can be used to prevent execution when testing alternative code. Comments are ignored by the Java compiler.
+- **Comments**: Comments are used to explain Java code, and to make it more readable. Comments can be used to prevent execution when testing alternative code. Comments are ignored by the Java compiler.  
+
 ---
 ## What are the java class libraries?
 Java class libraries are a set of prewritten classes that are used to perform common tasks. These classes are part of the Java API. The Java API is a collection of prewritten classes that are used to perform common tasks. The Java API is divided into several packages.  
