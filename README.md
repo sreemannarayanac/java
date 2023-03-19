@@ -55,4 +55,17 @@ Learning material: [click here](unit2/README2.md)
 - Method Overloading
 - Overloading Constructors
 - Understanding `static`
-- Variable-Length Arguments
+- Variable-Length Arguments  
+
+---
+## Unit 3 (Arrays and Strings)
+### Part 1 (Arrays)
+Learning material: [click here](unit3/README1.md)
+- 1D Arrays
+- Multidimensional Arrays
+- Irregular Arrays
+- Array References
+- Using the Length Member
+- .Arrays class of java.util package
+- Array Lists
+- Vector Class
