@@ -20,7 +20,7 @@ class Operations {
   }
 
   double division () {
-    return this.a+this.b;
+    return this.a/this.b;
   }
 }
 
