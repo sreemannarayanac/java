@@ -20,6 +20,10 @@ class Shape {
     y = bredth;
     z = height;
   }
+
+  void calculate() {
+      System.out.println(x*y*z);
+  }
 }
 
 class Test1 extends Shape{
@@ -37,13 +41,7 @@ class Test1 extends Shape{
     this.id = id;
   }
 
-  // Method 1 - cube
-  void calculate(double x) {
-    System.out.println("Volume of the cube "+this.id+" = "+(x*x*x));
-  }
-
-  // Method 2 - cuboid
-  void calculate(double x,double y,double z) {
+  void calculate() {
     System.out.println("Volume of the cuboid "+this.id+" = "+ (x*y*z));
   }
 }
@@ -57,9 +55,9 @@ class Q2 {
     Test1 s2 = new Test1(5.0, 3.0, 2.0, 3);
 
     // calculating volume of cube
-    s1.calculate(5);
+    s1.calculate();
 
     // calculating volume of cuboid
-    s2.calculate(5, 5, 2);
+    s2.calculate();
   }
 }
