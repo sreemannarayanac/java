@@ -57,3 +57,7 @@ type = "request"
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
 mainClass = "Main"
+
+[deployment]
+build = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
+run = "java -classpath .:target/dependency/* Main"
